@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(255, 169, 254, 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor {
+    background-color: white;
+
+    display: inline-block;
+    max-width: 1000px;
+    min-width: 700px;
+    width: 1000px;
+    margin: 100px auto;
+    height: 400px;
+
+}
+
+h1 {
+    margin: 10px 15px;
+}
+
+p {
+    margin: 4px 20px;
+}
+
+.descripcion {
+    margin-top: 0;
+}
+
+hr {
+    border-color: rgb(255, 52, 238);
+}
+
+.nombre {
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin: 10px 15px;
+
+}
+
+i {
+    font-size: 40px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 50px;
+}
+
+.posi {
+    position: relative;
+    float: right;
+    top: -40px;
+}
+
+.imagen1 {
+    rotate: 190deg;
+}
