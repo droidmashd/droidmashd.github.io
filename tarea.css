@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+
+article {
+    display: flex;
+    height: 100%;
+}
+
+.primera_parte {
+    background-color: rgba(0, 0, 240, 0.1);
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.diseñador {
+    margin: 0;
+    color: white;
+    
+            font-family: "Roboto", sans-serif;
+            font-weight: 3  00;
+            font-style: normal;
+        
+
+}
+
+.segunda_parte {
+    background-color: white;
+    flex: 1;
+}
+.nombre {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    color: white
+}
+.rostro {
+    width: 250px;
+}
+.redes_sociales {
+    width: 53%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.informacion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: inline;
+}
+.estudios {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.info p, h3 {
+    margin-left: 30px;
+}
+.info p {
+    margin-left: 60px;
+}
+.justificar {
+    margin-left: 20px;
+}
+.colegio {
+    width: 40px;
+}
+.dentro p, img {
+    display: inline ;
+}
+.dentro img {
+    margin-left: 20px;
+}
